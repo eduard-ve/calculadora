@@ -2,7 +2,7 @@ class Controlador:
     def __init__(self, model, view):
         self.model = model
         self.view = view
-
+     # OPERACIONES
     def realizar_operacion(self):
         try:
             operacion = self.view.pedir_operacion()
